@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #1461aa, #1faab4, #4983f0, #02f7ff);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+  
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+#inicio{
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-right: 20px;
+  }
+  
+#conta{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 150px;
+      flex-direction: column;
+  }
+  
+#tutorial{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 150px;
+      flex-direction: column;
+      height: 50vh;
+}
+  
+#iaf{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+  
+#analise{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 150px;
+      flex-direction: column;
+      padding: 90px;
+}
+  
+.botao {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #006eb8;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+}
+  
+@keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+  
+.botao-com-animacao {
+      animation: pulse 2s infinite;
+}
+  
+a:link {
+      text-decoration: none;
+      color: #fff;
+}
+  
+h3{
+      color:white;
+      margin-right: 750px;
+}
